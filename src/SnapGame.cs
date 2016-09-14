@@ -55,6 +55,7 @@ namespace CardGames
 
 			//Draw onto the screen
 			SwinGame.RefreshScreen(60);
+
 		}
 
 		/// <summary>
