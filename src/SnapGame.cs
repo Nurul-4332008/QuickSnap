@@ -33,14 +33,19 @@ namespace CardGames
                 SwinGame.KeyTyped(KeyCode.vk_RSHIFT))
                 {
                     //TODO: add sound effects
+                    SwinGame.LoadSoundEffectNamed("Slap", "slap.wav");
                 }
                 else if (SwinGame.KeyTyped(KeyCode.vk_LSHIFT))
                 {
+                    SwinGame.LoadSoundEffectNamed("Slap", "kick.wav");
                     myGame.PlayerHit(0);
+                   
                 }
                 else if (SwinGame.KeyTyped(KeyCode.vk_RSHIFT))
                 {
+                    SwinGame.LoadSoundEffectNamed("Slap", "upper_cut.wav");
                     myGame.PlayerHit(1);
+                    
                 }
             } 
 		}
